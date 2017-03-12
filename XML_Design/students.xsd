@@ -2,8 +2,8 @@
 <xs:schema version="1.0"
            xmlns:xs="http://www.w3.org/2001/XMLSchema"
            elementFormDefault="qualified">
- <!--    <xs:include schemaLocation="https://raw.githubusercontent.com/mansiiyengar/JavaProblems/master/buildings.xsd"/> 
- -->   
+        <xs:include schemaLocation="https://github.com/nainaraut/XML-Project/edit/master/XML_Design/buildings.xsd"/> 
+  
 	<xs:include schemaLocation="buildings.xsd"/>
 	<xs:element name="students">
         <xs:complexType>
