@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='students.xsd'>
+   <student SSN="111-00-1111" name="Rylan" DOB="1968-04-01" gender="M" type="Both">
+        <bldgCode>CFX</bldgCode>
+        <bldgCode>JEP</bldgCode>
+        <Phone>213-740-1111</Phone>
+        <Phone>213-740-1112</Phone>
+    </student>
+    
+    <student SSN="111-00-2222" name="Joshua" DOB="1970-04-01" gender="M" type="Both">
+        <bldgCode>RTH</bldgCode>
+        <bldgCode>OHE</bldgCode>
+        <Phone>213-740-2222</Phone>
+    </student>
+     <student SSN="111-00-3333" name="Allen" DOB="1969-04-01" gender="F" type="Both">
+        <bldgCode>RTH</bldgCode>
+        <Phone>213-740-3333</Phone>
+    </student>
+     <student SSN="111-00-4444" name="Aidan" DOB="1985-04-01" gender="M" type="Both">
+        <bldgCode>JHH</bldgCode>
+        <bldgCode>REG</bldgCode>
+        <Phone>213-740-4444</Phone>
+        <Phone>213-740-4445</Phone>
+    </student>
+     <student SSN="111-00-5555" name="Aiden" DOB="1982-04-01" gender="M" type="Both">
+        <bldgCode>LVY</bldgCode>
+        <bldgCode>VKC</bldgCode>
+        <bldgCode>WPH</bldgCode>
+        <bldgCode>KOH</bldgCode>
+        <Phone>213-740-5555</Phone>
+    </student>
+     <student SSN="111-00-6666" name="Barak" DOB="1979-04-01" gender="F" type="Master">
+        <Phone>213-740-6666</Phone>
+    </student>
+     <student SSN="111-00-7777" name="Basil" DOB="1978-04-01" gender="M" type="Master">
+        <bldgCode>LVY</bldgCode>
+        <bldgCode>VKC</bldgCode>
+        <bldgCode>WPH</bldgCode>
+        <Phone>213-740-7777</Phone>
+    </student>
+     <student SSN="111-00-8888" name="Cayden" DOB="1975-04-01" gender="F" type="Master">
+        <bldgCode>RTH</bldgCode>
+        <bldgCode>SAL</bldgCode>
+        <bldgCode>OHE</bldgCode>
+        <Phone>213-740-8888</Phone>
+        <Phone>213-740-8889</Phone>
+    </student>
+     <student SSN="111-00-9999" name="Brendon" DOB="1972-04-01" gender="M" type="Master">
+        <bldgCode>RTH</bldgCode>
+        <bldgCode>SAL</bldgCode>
+        <Phone>213-740-9999</Phone>
+    </student>
+     <student SSN="111-00-0000" name="Nate" DOB="1973-04-01" gender="M" type="Master">
+        <Phone>213-740-0000</Phone>
+    </student>
+     <student SSN="111-11-1111" name="Hannah" DOB="1965-04-01" gender="F" type="Master">
+        <bldgCode>RTH</bldgCode>
+        <bldgCode>SAL</bldgCode>
+        <bldgCode>OHE</bldgCode>
+        <Phone>213-741-1111</Phone>
+    </student>
+     <student SSN="111-11-2222" name="Zoe" DOB="1962-04-01" gender="F" type="Master">
+        <bldgCode>CFX</bldgCode>
+        <bldgCode>STU</bldgCode>
+        <bldgCode>BKS</bldgCode>
+        <Phone>213-742-2222</Phone>
+    </student>
+     <student SSN="111-11-3333" name="Alexis" DOB="1963-04-01" gender="M" type="Phd">
+        <Phone>213-741-3333</Phone>
+    </student>
+     <student SSN="111-11-4444" name="Madison" DOB="1975-04-01" gender="F" type="Phd">
+        <bldgCode>KOH</bldgCode>
+         <bldgCode>CFX</bldgCode>
+        <bldgCode>SAL</bldgCode>
+        <Phone>213-741-4444</Phone>
+    </student>
+     <student SSN="111-11-5555" name="Adalgisa" DOB="1976-04-01" gender="M" type="Phd">
+        <bldgCode>CFX</bldgCode>
+        <Phone>213-741-5555</Phone>
+    </student>
+     <student SSN="111-11-6666" name="Cora" DOB="1977-04-01" gender="M" type="Phd">
+        <bldgCode>CFX</bldgCode>
+        <bldgCode>KOH</bldgCode>
+        <Phone>213-741-6666</Phone>
+        <Phone>213-741-6667</Phone>
+    </student>
+     <student SSN="111-11-7777" name="Adalia" DOB="1982-04-01" gender="F" type="Phd">
+        <Phone>213-741-7777</Phone>
+    </student>
+     <student SSN="111-11-8888" name="Ava" DOB="1983-04-01" gender="F" type="Phd">
+        <bldgCode>RTH</bldgCode>
+        <bldgCode>OHE</bldgCode>
+        <Phone>213-741-8888</Phone>
+        <Phone>213-741-8889</Phone>
+    </student>
+     <student SSN="111-11-9999" name="Celia" DOB="1986-04-01" gender="M" type="Phd">
+        <bldgCode>RTH</bldgCode>
+        <Phone>213-740-9999</Phone>
+    </student>
+     <student SSN="111-11-0000" name="Zaida" DOB="1983-04-01" gender="F" type="Phd">
+        <bldgCode>SAL</bldgCode>
+        <bldgCode>EEB</bldgCode>
+        <Phone>213-741-0000</Phone>
+    </student>
+</students>

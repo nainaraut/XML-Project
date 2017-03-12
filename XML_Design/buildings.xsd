@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+       <xs:element name="bldgCode" >
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[A-Z|a-z]{3}"/>
+                <xs:length value="3"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="buildings">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="building" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element ref="bldgCode"/>
+                            <xs:element name="bldgName" type="xs:string" maxOccurs="1"/>
+                            <xs:element name="positon" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:attribute name="Lat" type="xs:decimal"  use="required"/>
+                                    <xs:attribute name="Long" type="xs:decimal"  use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                            <xs:element name="address" minOccurs="0" maxOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="strNo" type="xs:string" />
+                                        <xs:element name="strName" type="xs:string" />
+                                        <xs:element name="city" type="xs:string" />
+                                        <xs:element name="state" type="xs:string" />
+                                        <xs:element name="zip" />
+                                          
+                                       
+                                    </xs:sequence>
+                                </xs:complexType>
+
+                            </xs:element>                               
+                        </xs:sequence>
+                        
+                    </xs:complexType>
+
+                </xs:element>
+            </xs:sequence>
+
+        </xs:complexType>
+                <xs:key name="PK_BldCode">
+                    <xs:selector xpath="buildings/building/bldgCode"/>
+                    <xs:field xpath="."/>
+                </xs:key> 
+    </xs:element>
+
+</xs:schema>
