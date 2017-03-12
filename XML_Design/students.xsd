@@ -4,7 +4,9 @@
            elementFormDefault="qualified">
         <xs:include schemaLocation="https://github.com/nainaraut/XML-Project/edit/master/XML_Design/buildings.xsd"/> 
   
-	<xs:include schemaLocation="buildings.xsd"/>
+	<!-- 
+		<xs:include schemaLocation="buildings.xsd"/> 
+         -->
 	<xs:element name="students">
         <xs:complexType>
             <xs:sequence maxOccurs="unbounded">
